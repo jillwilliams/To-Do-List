@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.App {
+    height: 100vh;
+    background-image: url('./images/pic1.png');
+    font-family: "Nunito";
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: yellow;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+.input {
+    font-family: "Nunito";
+    font-size: 1.3rem;
+    padding: 5px;
+    color: brown;
+    box-shadow: 5px 5px 5px grey;
+}
+li, ul {
+    list-style: none;
+}
+.myButton {
+    margin-left: 20px;
+    width: 20%;
+    height: 30px;
+    background-color: tan;
+    font-family: "Nunito";
+    border-radius: 45%;
+    border: 1px yellow solid;
+}
+.deleteButton {
+    margin-left: 15px;
+    width: 10%;
+    height: 25px;
+    color: black;
+    border: 1px yellow solid;
+}
